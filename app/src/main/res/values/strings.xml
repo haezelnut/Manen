@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Manen</string>
 
-<!--tittle-->
+    <!--tittle-->
     <string name="first_slide_tittle">Manen</string>
     <string name="second_slide_tittle">Daftarkan dirimu menjadi Seller</string>
     <string name="third_slide_tittle">Lengkapi informasi produkmu</string>
     <string name="fourth_slide_tittle">Nikmati keuntungannya</string>
 
-<!--description on boarding-->
+    <!--description on boarding-->
     <string name="first_slide_desc">Jangan khawatir tentang produkmu yang belum terjual, karena Manen akan membantumu memasarkannya!</string>
     <string name="second_slide_desc">Sebelum menjual produk ke masyarakat luas kamu harus terdaftar dulu jadi seller! Gampang kok, kamu ikutin aja langkah yang tersedia</string>
     <string name="third_slide_desc">Biar masyarakat langsung yakin untuk beli produkmu, kelola seluruh informasi tentang produkmu dulu ya!</string>
