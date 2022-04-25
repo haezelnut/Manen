@@ -41,6 +41,9 @@
             android:text="Mulai"
             android:textSize="15dp"
             app:cornerRadius="5dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
