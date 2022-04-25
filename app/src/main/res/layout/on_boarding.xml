@@ -40,6 +40,7 @@
             android:padding="15dp"
             android:text="Mulai"
             android:textSize="15dp"
+            android:fontFamily="@font/avenir_black"
             app:cornerRadius="5dp" />
         <TextView
             android:layout_width="match_parent"
