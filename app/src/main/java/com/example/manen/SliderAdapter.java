@@ -21,34 +21,34 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     int images[] = {
-            R.drawable.image1,
-            R.drawable.icon,
-            R.drawable.icon,
-            R.drawable.icon
+            R.drawable.slide1,
+            R.drawable.slide2,
+            R.drawable.slide3,
+            R.drawable.slide4
     };
 
-    int headings[] = {
-            R.string.first_slide_tittle,
-            R.string.second_slide_tittle,
-            R.string.third_slide_tittle,
-            R.string.fourth_slide_tittle
-    };
-
-    int description[] = {
-            R.string.first_slide_desc,
-            R.string.second_slide_desc,
-            R.string.third_slide_desc,
-            R.string.fourth_slide_desc
-    };
+//    int headings[] = {
+//            R.string.first_slide_tittle,
+//            R.string.second_slide_tittle,
+//            R.string.third_slide_tittle,
+//            R.string.fourth_slide_tittle
+//    };
+//
+//    int description[] = {
+//            R.string.first_slide_desc,
+//            R.string.second_slide_desc,
+//            R.string.third_slide_desc,
+//            R.string.fourth_slide_desc
+//    };
 
     @Override
     public int getCount() {
-        return headings.length;
+        return images.length;
     }
 
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
-        return view==(ConstraintLayout) object;
+        return view ==(ConstraintLayout) object;
     }
 
     @NonNull
@@ -59,12 +59,12 @@ public class SliderAdapter extends PagerAdapter {
         View view = layoutInflater.inflate(R.layout.slides_layout,container,false);
 
         ImageView imageView = view.findViewById(R.id.slider_image);
-        TextView heading = view.findViewById(R.id.slider_heading);
-        TextView desc = view.findViewById(R.id.slider_desc);
+//        TextView heading = view.findViewById(R.id.slider_heading);
+//        TextView desc = view.findViewById(R.id.slider_desc);
 
         imageView.setImageResource(images[position]);
-        heading.setText(headings[position]);
-        desc.setText(description[position]);
+//        heading.setText(headings[position]);
+//        desc.setText(description[position]);
 
 
         container.addView(view);
