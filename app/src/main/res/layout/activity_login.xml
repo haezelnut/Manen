@@ -64,7 +64,7 @@
         android:layout_marginTop="13dp"
         android:background="@drawable/rounded_edittext1"
         android:drawableRight="@drawable/ic_baseline_visibility_off_24"
-        android:fontFamily="@font/avenir_black"
+         android:fontFamily="@font/avenir_black"
         android:hint="Kata Sandi"
         android:inputType="textPassword"
         android:longClickable="false"
