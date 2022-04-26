@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Verivikasi">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="28dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="362dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_below="@+id/backButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="76dp"
+        app:srcCompat="@drawable/icon" />
+
+
+    <TextView
+        android:id="@+id/headingRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="67dp"
+        android:fontFamily="@font/avenir_black"
+        android:gravity="center"
+        android:text="Masukkan Kode Verivikasi"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/descRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_below="@+id/headingRegis"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="29dp"
+        android:fontFamily="@font/avenir_black"
+        android:gravity="center"
+        android:text="Kode konfirmasi telah dikirimkan. Silahkan cek sms atau email untuk verifikasi"
+        android:textColor="@color/grey"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/linearEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descRegis"
+        android:layout_marginTop="60dp"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_edittext1"
+            android:text=""
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext1"
+            android:text="" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext1"
+            android:text="" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext1"
+            android:text="" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonVerif"
+        android:layout_width="229dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/linearEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/rounded_buttontext1"
+        android:fontFamily="@font/avenir_black"
+        android:text="Verivikasi"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_below="@+id/buttonVerif"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/avenir_black"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:text="Belum menerima kode verifikasi? Kode akan dikirimkan dalam 00:15" />
+</RelativeLayout>
