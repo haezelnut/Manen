@@ -19,7 +19,6 @@ public class OnBoarding extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.on_boarding);
-        getSupportActionBar().hide();
 
         viewPager = findViewById(R.id.slider);
         getStartedBtn = findViewById(R.id.getStartedBtn);
