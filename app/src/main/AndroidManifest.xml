@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Manen">
         <activity
+            android:name=".Registrasi"
+            android:exported="false" />
+        <activity
             android:name=".BerhasilMendaftarScreen"
             android:exported="false" />
         <activity
