@@ -23,18 +23,26 @@
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="92dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layoutDot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" />
 
         <Button
             android:id="@+id/getStartedBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/layoutDot"
             android:layout_marginStart="65dp"
+            android:layout_marginTop="0dp"
             android:layout_marginEnd="65dp"
             android:backgroundTint="#97C94B"
             android:fontFamily="@font/avenir_black"
@@ -43,10 +51,6 @@
             android:textColor="@color/white"
             android:textSize="15dp"
             app:cornerRadius="5dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
