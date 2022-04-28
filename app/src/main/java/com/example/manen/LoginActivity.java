@@ -2,17 +2,28 @@ package com.example.manen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
 
     EditText inputEmail,inputPassword;
     boolean passwordVisible;
+
+    public void toRegister(View v){
+        Intent intent = new Intent(LoginActivity.this, Registrasi.class);
+        startActivity(intent);
+    }
+
+    public void backToOnboarding(View v){
+        onBackPressed();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,5 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+
     }
 }
