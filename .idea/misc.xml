@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2165" />
+        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/dot.xml" value="0.2165" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/dots1.xml" value="0.22" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2165" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.2165" />
@@ -17,6 +18,7 @@
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_main.xml" value="0.16168478260869565" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_register_seller.xml" value="0.209375" />
+        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.1" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.25" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/on_boarding.xml" value="0.25" />

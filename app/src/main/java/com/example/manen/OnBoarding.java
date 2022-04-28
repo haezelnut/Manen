@@ -69,7 +69,7 @@ public class OnBoarding extends AppCompatActivity {
             for (int i = 0;i<dots.length;i++)
             {
                 dots[i] = new ImageView(this);
-                int width_heigh =25;
+                int width_heigh =26;
                 LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(new ViewGroup.LayoutParams(width_heigh,width_heigh));
                 params.setMargins(10,10,10,10);
                 dots[i].setLayoutParams(params);
