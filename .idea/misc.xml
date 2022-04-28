@@ -3,27 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/dot.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/dots1.xml" value="0.22" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/line1.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/rectangle_1.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/rounded_buttontext1.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/drawable/rounded_edittext1.xml" value="0.2165" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.25" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_main.xml" value="0.16168478260869565" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_register_seller.xml" value="0.209375" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.1" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
-        <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.25" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/on_boarding.xml" value="0.25" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/slide_layout.xml" value="0.21" />
         <entry key="..\:/KampurMerdeka/Manen/app/src/main/res/layout/slides_layout.xml" value="0.22" />
+        <entry key="..\:/Manen/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1825" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/arrow_back_vector.xml" value="0.1825" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/back_arrow.xml" value="0.2735" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/back_vector.xml" value="0.1655" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/background_input_text.xml" value="0.283" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/facebook_icon.xml" value="0.1485" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1025" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/line1.xml" value="0.1585" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/rounded_buttontext1.xml" value="0.1585" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/rounded_edittext1.xml" value="0.1725" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.18177083333333333" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.33" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.33" />
+        <entry key="..\:/Manen/app/src/main/res/layout/on_boarding.xml" value="0.22083333333333333" />
+        <entry key="..\:/Manen/app/src/main/res/layout/slides_layout.xml" value="0.22083333333333333" />
       </map>
     </option>
   </component>

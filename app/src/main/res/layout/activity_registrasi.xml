@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".Registrasi">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -129,13 +129,14 @@
 
         <Button
             android:id="@+id/registerBtn"
+            android:onClick="toVerification"
             android:layout_width="251dp"
             android:layout_height="38dp"
             android:layout_marginTop="25dp"
             android:background="@drawable/rounded_buttontext1"
             android:fontFamily="@font/avenir_black"
             android:hint="Daftar Sekarang"
-            android:textColorHint="#80FFFFFF"
+            android:textColorHint="@color/white"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

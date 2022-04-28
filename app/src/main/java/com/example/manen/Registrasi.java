@@ -18,7 +18,11 @@ public class Registrasi extends AppCompatActivity {
     public void toLogin(View v){
         Intent intent = new Intent(Registrasi.this, LoginActivity.class);
         startActivity(intent);
+    }
 
+    public void toVerification(View v){
+        Intent intent = new Intent(Registrasi.this, Verivikasi.class);
+        startActivity(intent);
     }
     // tombol panah pojok atas kiri kembali ke screen sbelumnya
      public void backToLogin(View v){
