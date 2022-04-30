@@ -75,6 +75,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:inputType="number"
+            android:textColor="@color/white"
             android:background="@drawable/rounded_edittext1"
             android:gravity="center"
             android:text="" />
@@ -83,6 +84,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:inputType="number"
+            android:textColor="@color/white"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_edittext1"
@@ -93,6 +95,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:inputType="number"
+            android:textColor="@color/white"
             android:background="@drawable/rounded_edittext1"
             android:gravity="center"
             android:text="" />
@@ -101,6 +104,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:inputType="number"
+            android:textColor="@color/white"
             android:layout_marginStart="16dp"
             android:background="@drawable/rounded_edittext1"
             android:gravity="center"
@@ -124,6 +128,7 @@
     <TextView
         android:layout_width="240dp"
         android:layout_height="39dp"
+        android:onClick="toSuccesRegis"
         android:fontFamily="@font/avenir_black"
         android:gravity="center"
         android:text="Belum menerima kode verifikasi? Kode akan dikirimkan dalam 00:15"

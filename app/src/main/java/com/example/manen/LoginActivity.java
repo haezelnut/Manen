@@ -21,6 +21,11 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toHomeMenu(View v){
+        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+        startActivity(intent);
+    }
+
     public void backToOnboarding(View v){
         onBackPressed();
     }

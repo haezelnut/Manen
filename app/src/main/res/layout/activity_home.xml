@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+
+   >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_alignParentTop="true"
+                android:background="#FB9731">
+
+                <RelativeLayout
+                    android:id="@+id/headerHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/backgroundlinesheader">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/photoProfile"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/foto_amat"
+                        app:shapeAppearanceOverlay="@style/roundedImageViewProfil" />
+
+                    <TextView
+                        android:id="@+id/profilName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="45dp"
+                        android:layout_toEndOf="@id/photoProfile"
+                        android:fontFamily="@font/avenir_black"
+                        android:text="Mamat"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_toEndOf="@id/photoProfile"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:fontFamily="@font/avenir_book"
+                        android:text="Surabaya"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+
+                        />
+
+                    <ImageButton
+                        android:layout_width="84.17dp"
+                        android:layout_height="57.44dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/rounded_buttontext1"
+                        android:elevation="2dp"
+                        android:src="@drawable/vector_icon_share" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/operationalHoursView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_toStartOf="@id/lineVertikal"
+                            android:fontFamily="@font/avenir_black"
+                            android:gravity="center"
+
+                            android:text="Jam Operasional"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/operationalHours"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/operationalHoursView"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="6dp"
+                            android:layout_toStartOf="@id/lineVertikal"
+                            android:fontFamily="@font/avenir_black"
+                            android:gravity="center"
+                            android:text="24 Jam"
+                            android:textColor="#9D9D9D"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/lineVertikal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:src="@drawable/line_vertikal" />
+
+                        <TextView
+                            android:id="@+id/sincelJoinView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_toEndOf="@id/lineVertikal"
+                            android:fontFamily="@font/avenir_black"
+                            android:gravity="center"
+                            android:text="Sejak Bergabung"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/sinceJoin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/sincelJoinView"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="6dp"
+                            android:layout_toEndOf="@id/lineVertikal"
+                            android:fontFamily="@font/avenir_black"
+                            android:gravity="center"
+                            android:text="5/100 Transaksi"
+
+                            android:textColor="#9D9D9D"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/sinceJoin"
+                            android:layout_marginTop="15sp"
+                            android:src="@drawable/line_horizaontal" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/checkProduckDevelop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="14dp"
+                            android:fontFamily="@font/avenir_black"
+                            android:text="Cek Perkembangan Produkmu Hari ini"
+                            android:textSize="18sp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/checkProduckDevelop"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="10dp"
+
+                            >
+
+                            <GridLayout
+                                android:id="@+id/grid_main_menu"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentEnd="true"
+                                android:columnCount="3"
+                                android:columnOrderPreserved="false"
+                                android:rowCount="2">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_rowWeight="1"
+                                    android:layout_columnWeight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:paddingLeft="16dp"
+                                        android:paddingRight="10dp">
+
+                                        <ImageButton
+                                            android:layout_width="match_parent"
+                                            android:layout_height="110dp"
+                                            android:background="@drawable/rounded_buttontext1"
+                                            android:src="@drawable/ic_produk" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="6dp"
+                                            android:fontFamily="@font/avenir_roman"
+                                            android:text="Produk"
+                                            android:textColor="#5B5B5B"
+                                            android:textSize="16sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_rowWeight="1"
+                                    android:layout_columnWeight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:paddingLeft="10dp"
+                                        android:paddingRight="10dp">
+
+                                        <ImageButton
+                                            android:layout_width="match_parent"
+                                            android:layout_height="110dp"
+                                            android:background="@drawable/rounded_buttontext1"
+                                            android:src="@drawable/ic_pesanan" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="6dp"
+                                            android:fontFamily="@font/avenir_roman"
+                                            android:text="Pesanan"
+                                            android:textColor="#5B5B5B"
+                                            android:textSize="16sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_rowWeight="1"
+                                    android:layout_columnWeight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:paddingLeft="10dp"
+                                        android:paddingRight="10dp">
+
+                                        <ImageButton
+                                            android:layout_width="match_parent"
+                                            android:layout_height="110dp"
+                                            android:background="@drawable/rounded_buttontext1"
+                                            android:src="@drawable/ic_lacak_pesanan" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="6dp"
+                                            android:fontFamily="@font/avenir_roman"
+                                            android:text="Lacak Pesanan"
+                                            android:textColor="#5B5B5B"
+                                            android:textAlignment="center"
+                                            android:textSize="16sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_rowWeight="1"
+                                    android:layout_columnWeight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:paddingLeft="16dp"
+                                        android:paddingTop="5dp"
+                                        android:paddingRight="10dp">
+
+                                        <ImageButton
+                                            android:layout_width="match_parent"
+                                            android:layout_height="110dp"
+                                            android:background="@drawable/rounded_buttontext1"
+                                            android:src="@drawable/ic_promo" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="6dp"
+                                            android:fontFamily="@font/avenir_roman"
+                                            android:text="Promo"
+                                            android:textColor="#5B5B5B"
+                                            android:textSize="16sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_rowWeight="1"
+                                    android:layout_columnWeight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:paddingLeft="10dp"
+                                        android:paddingTop="5dp"
+                                        android:paddingRight="10dp">
+
+                                        <ImageButton
+                                            android:layout_width="match_parent"
+                                            android:layout_height="110dp"
+                                            android:background="@drawable/rounded_buttontext1"
+                                            android:src="@drawable/ic_iklan_produk" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="6dp"
+                                            android:fontFamily="@font/avenir_roman"
+                                            android:text="Iklan Produk"
+                                            android:textColor="#5B5B5B"
+                                            android:textSize="16sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_rowWeight="1"
+                                    android:layout_columnWeight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:paddingLeft="10dp"
+                                        android:paddingTop="5dp"
+                                        android:paddingRight="10dp">
+
+                                        <ImageButton
+                                            android:layout_width="match_parent"
+                                            android:layout_height="110dp"
+                                            android:background="@drawable/rounded_buttontext1"
+                                            android:src="@drawable/ic_bisnis_analisis" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="6dp"
+                                            android:fontFamily="@font/avenir_roman"
+                                            android:text="Bisnis Analisis"
+                                            android:textColor="#5B5B5B"
+                                            android:textAlignment="center"
+                                            android:textSize="16sp" />
+
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                            </GridLayout>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/grid_main_menu"
+                                android:layout_marginTop="16dp"
+                                android:src="@drawable/line_horizaontal" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/checkProduckSelling"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="14dp"
+                            android:fontFamily="@font/avenir_black"
+                            android:text="Ringkasan Penjualan Produkmu"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/lastUpdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/checkProduckSelling"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/avenir_roman"
+                            android:text="Terakhir diperbarui : 14 April 2022 (15.00) WIB"
+                            android:textColor="#9B9B9B"
+                            android:textSize="18sp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/checkProduckDevelop"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+
+                        >
+
+                        <GridLayout
+                            android:id="@+id/grid_content_selling"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:columnCount="3"
+                            android:columnOrderPreserved="false"
+                            android:rowCount="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="2">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:paddingLeft="16dp"
+                                    android:paddingRight="10dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:background="@drawable/rounded_buttontext1"
+                                        android:text="Rp.250.000"
+                                        android:gravity="center"
+                                        android:fontFamily="@font/avenir_black"
+                                        android:textSize="20sp"
+                                        android:textColor="@color/white"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="6dp"
+                                        android:fontFamily="@font/avenir_roman"
+                                        android:text="Pendapatan"
+                                        android:textColor="#5B5B5B"
+                                        android:textSize="16sp" />
+
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:background="@drawable/rounded_buttontext1"
+                                        android:text="20"
+                                        android:gravity="center"
+                                        android:fontFamily="@font/avenir_black"
+                                        android:textSize="20sp"
+                                        android:textColor="@color/white"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="6dp"
+                                        android:fontFamily="@font/avenir_roman"
+                                        android:text="Produk Dilihat"
+                                        android:textAlignment="center"
+                                        android:textColor="#5B5B5B"
+                                        android:textSize="16sp" />
+
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:paddingLeft="10dp"
+                                    android:paddingRight="10dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:background="@drawable/rounded_buttontext1"
+                                        android:text="17"
+                                        android:gravity="center"
+                                        android:fontFamily="@font/avenir_black"
+                                        android:textSize="20sp"
+                                        android:textColor="@color/white"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="6dp"
+                                        android:fontFamily="@font/avenir_roman"
+                                        android:text="Produk Diklik"
+                                        android:textAlignment="center"
+                                        android:textColor="#5B5B5B"
+                                        android:textSize="16sp" />
+
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </GridLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/grid_content_selling"
+                            android:layout_marginTop="16dp"
+                            android:src="@drawable/line_horizaontal" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/infromationSeller"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="14dp"
+                            android:fontFamily="@font/avenir_black"
+                            android:text="Seputar Informasi Seller"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textWelcomeSellerInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/infromationSeller"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/avenir_roman"
+                            android:text="Hai Mamat, walaupun penjualanmu lagi lancar &amp; lagi sibuk2nya,  jangan lupa rajin baca informasi terbaru ya biar kamu update terus"
+                            android:textColor="#9B9B9B"
+                            android:textSize="18sp" />
+                        
+                        <RelativeLayout
+                            android:id="@+id/infromationSeller1"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textWelcomeSellerInfo"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            >
+                            
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/imageInformation1"
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                                android:src="@drawable/exampe_image_information"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentStart="true"
+                                />
+
+                            <TextView
+                                android:id="@+id/contentInfromation1"
+                                android:layout_alignParentTop="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@+id/imageInformation1"
+                                android:text="Kami hadir dengan kemasan aplikasi baru! Coba sekarang dan jual barang anda"
+                                android:textColor="#5B5B5B"
+                                android:fontFamily="@font/avenir_roman"
+                                android:layout_marginLeft="8dp"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/line1"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_toEndOf="@id/imageInformation1"
+                                android:text="Diperbarui 2 menit lalu"
+                                android:textColor="#9B9B9A"
+                                android:textSize="16sp" />
+
+                            <ImageView
+                                android:id="@+id/line1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_horizaontal"
+                                android:layout_marginTop="10dp"
+                                android:layout_below="@id/imageInformation1"
+                                />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/infromationSeller2"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/infromationSeller1"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            >
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/imageInformation2"
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                                android:src="@drawable/exampe_image_information"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentStart="true"
+                                />
+
+                            <TextView
+                                android:id="@+id/contentInfromation2"
+                                android:layout_alignParentTop="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@+id/imageInformation2"
+                                android:text="Baru! Biar pembayaranmu nyaman, kami menyediakan Seller"
+                                android:textColor="#5B5B5B"
+                                android:fontFamily="@font/avenir_roman"
+                                android:layout_marginLeft="8dp"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/line2"
+                                android:layout_toEndOf="@id/imageInformation2"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Diperbarui 4 hari lalu"
+                                android:textColor="#9B9B9A"
+                                android:textSize="16sp"
+                                />
+
+                            <ImageView
+                                android:id="@+id/line2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_horizaontal"
+                                android:layout_marginTop="10dp"
+                                android:layout_below="@id/imageInformation2"
+                                />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/infromationSeller3"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/infromationSeller2"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            >
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/imageInformation3"
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                                android:src="@drawable/exampe_image_information"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentStart="true"
+                                />
+
+                            <TextView
+                                android:id="@+id/contentInfromation3"
+                                android:layout_alignParentTop="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@+id/imageInformation3"
+                                android:text="Pembeli sekarang bisa melakukan pembelian dengan sangat mudah"
+                                android:textColor="#5B5B5B"
+                                android:fontFamily="@font/avenir_roman"
+                                android:layout_marginLeft="8dp"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@id/imageInformation3"
+                                android:layout_marginLeft="8dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="3dp"
+                                android:text="Diperbarui 5 hari lalu"
+                                android:textColor="#9B9B9A"
+                                android:textSize="16sp"
+                                />
+
+                        </RelativeLayout>
+
+                        <Button
+                            android:id="@+id/lihatSelengkapnyaBtn1"
+                            android:layout_width="200dp"
+                            android:layout_height="45dp"
+                            android:layout_below="@id/infromationSeller3"
+                            style="@style/roundedImageViewInformation"
+                            android:backgroundTint="@color/orange"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginEnd="15dp"
+                            android:textAllCaps="false"
+                            android:text="Lihat Selengkapnya"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="12sp"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+
+                            />
+
+                        <ImageView
+                            android:layout_below="@id/lihatSelengkapnyaBtn1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/line_horizaontal"
+                            android:layout_marginTop="30dp"
+                            android:outlineSpotShadowColor="@color/orange"/>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/infromationSellerExtend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="14dp"
+                            android:fontFamily="@font/avenir_black"
+                            android:text="Seputar Informasi Seller"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textWelcomeSellerInfo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/infromationSellerExtend"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/avenir_roman"
+                            android:text="Hai Mamat, walaupun penjualanmu lagi lancar &amp; lagi sibuk2nya,  jangan lupa rajin baca informasi terbaru ya biar kamu update terus"
+                            android:textColor="#9B9B9B"
+                            android:textSize="18sp" />
+
+                        <RelativeLayout
+                            android:id="@+id/infromationSellerExtend1"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textWelcomeSellerInfo2"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            >
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/imageInformationExtend1"
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                                android:src="@drawable/exampe_image_information"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentStart="true"
+                                />
+
+                            <TextView
+                                android:id="@+id/contentInfromationExtend1"
+                                android:layout_alignParentTop="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@+id/imageInformationExtend1"
+                                android:text="Kami hadir dengan kemasan aplikasi baru! Coba sekarang dan jual barang anda"
+                                android:textColor="#5B5B5B"
+                                android:fontFamily="@font/avenir_roman"
+                                android:layout_marginLeft="8dp"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/line4"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_toEndOf="@id/imageInformationExtend1"
+                                android:text="Diperbarui 2 menit lalu"
+                                android:textColor="#9B9B9A"
+                                android:textSize="16sp" />
+
+                            <ImageView
+                                android:id="@+id/line4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_horizaontal"
+                                android:layout_marginTop="10dp"
+                                android:layout_below="@id/imageInformationExtend1"
+                                />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/infromationSellerExtend2"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/infromationSellerExtend1"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            >
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/imageInformationeExtend2"
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                                android:src="@drawable/exampe_image_information"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentStart="true"
+                                />
+
+                            <TextView
+                                android:id="@+id/contentInfromationExtend2"
+                                android:layout_alignParentTop="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@+id/imageInformationeExtend2"
+                                android:text="Baru! Biar pembayaranmu nyaman, kami menyediakan Seller"
+                                android:textColor="#5B5B5B"
+                                android:fontFamily="@font/avenir_roman"
+                                android:layout_marginLeft="8dp"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/line5"
+                                android:layout_toEndOf="@id/imageInformationeExtend2"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Diperbarui 4 hari lalu"
+                                android:textColor="#9B9B9A"
+                                android:textSize="16sp"
+                                />
+
+                            <ImageView
+                                android:id="@+id/line5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_horizaontal"
+                                android:layout_marginTop="10dp"
+                                android:layout_below="@id/imageInformationeExtend2"
+                                />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/infromationSellerExtend3"
+                            android:layout_marginTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/infromationSellerExtend2"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            >
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/imageInformationExtend3"
+                                android:layout_width="100dp"
+                                android:layout_height="90dp"
+                                app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                                android:src="@drawable/exampe_image_information"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentStart="true"
+                                />
+
+                            <TextView
+                                android:id="@+id/contentInfromationExtend3"
+                                android:layout_alignParentTop="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@+id/imageInformationExtend3"
+                                android:text="Pembeli sekarang bisa melakukan pembelian dengan sangat mudah"
+                                android:textColor="#5B5B5B"
+                                android:fontFamily="@font/avenir_roman"
+                                android:layout_marginLeft="8dp"
+                                android:textSize="16sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@id/imageInformationExtend3"
+                                android:layout_marginLeft="8dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="3dp"
+                                android:text="Diperbarui 5 hari lalu"
+                                android:textColor="#9B9B9A"
+                                android:textSize="16sp"
+                                />
+
+                        </RelativeLayout>
+
+                        <Button
+                            android:id="@+id/lihatSelengkapnyaBtn2"
+                            android:layout_width="200dp"
+                            android:layout_height="45dp"
+                            android:layout_below="@id/infromationSellerExtend3"
+                            style="@style/roundedImageViewInformation"
+                            android:backgroundTint="@color/orange"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginEnd="15dp"
+                            android:textAllCaps="false"
+                            android:text="Lihat Selengkapnya"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="12sp"
+                            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                            />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"/>
+                </LinearLayout>
+            </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:background="#FB9731"
+        android:backgroundTint="#FB9731"
+        app:fabCradleMargin="8dp"
+        app:fabCradleRoundedCornerRadius="30dp"
+        app:elevation="10dp"
+        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_bot"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:itemIconSize="40dp"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:menu="@menu/bottom_nav_bar"
+            android:layout_marginRight="10dp"
+            />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_input_product"
+        app:fabCustomSize="90dp"
+        app:layout_anchor="@id/bottomAppBar"
+        android:backgroundTint="#97C94B"
+        app:maxImageSize="40dp"
+        app:elevation="5dp"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

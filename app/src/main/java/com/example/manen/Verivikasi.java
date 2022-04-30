@@ -11,6 +11,10 @@ public class Verivikasi extends AppCompatActivity {
         onBackPressed();
     }
 
+    public void toSuccesRegis(View v){
+        Intent intent = new Intent(Verivikasi.this, BerhasilMendaftarScreen.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

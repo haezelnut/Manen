@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_vector_home"
+        android:title="Beranda"
+        />
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_vector_chat"
+        android:title="Pesan"
+        />
+
+    <item
+        android:id="@+id/anchor"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/Reviewer"
+        android:icon="@drawable/ic_vector_star"
+        android:title="Ulasan"
+        />
+
+    <item
+        android:id="@+id/Setting"
+        android:icon="@drawable/ic_vektor_setting"
+        android:title="Pengaturan"
+        />
+</menu>
