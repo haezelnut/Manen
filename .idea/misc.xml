@@ -12,29 +12,13 @@
         <entry key="..\:/Manen/app/src/main/res/drawable/arrow_back_vector.xml" value="0.1825" />
         <entry key="..\:/Manen/app/src/main/res/drawable/back_arrow.xml" value="0.2735" />
         <entry key="..\:/Manen/app/src/main/res/drawable/back_vector.xml" value="0.1655" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/backgroud_header_main.xml" value="0.119" />
         <entry key="..\:/Manen/app/src/main/res/drawable/background_input_text.xml" value="0.283" />
         <entry key="..\:/Manen/app/src/main/res/drawable/facebook_icon.xml" value="0.1485" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/header_main_menu.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1025" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1815" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_group_67.xml" value="0.1365" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_icon_back_lihat_selengkapnya.xml" value="0.1985" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_input_product.xml" value="0.1815" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector__3_.xml" value="0.1815" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_chat.xml" value="0.1875" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_star.xml" value="0.1815" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vektor_setting.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/line1.xml" value="0.1585" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/line_horizaontal.xml" value="0.1365" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/line_horizontal.xml" value="0.1365" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/line_vertikal.xml" value="0.1365" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/location_icon.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/rounded_buttontext1.xml" value="0.1585" />
         <entry key="..\:/Manen/app/src/main/res/drawable/rounded_edittext1.xml" value="0.1725" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/tesbeck.xml" value="0.119" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.22" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.18177083333333333" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.33" />
@@ -43,6 +27,22 @@
         <entry key="..\:/Manen/app/src/main/res/layout/on_boarding.xml" value="0.22083333333333333" />
         <entry key="..\:/Manen/app/src/main/res/layout/slides_layout.xml" value="0.22083333333333333" />
         <entry key="..\:/Manen/app/src/main/res/menu/bottom_nav_bar.xml" value="0.2937152629328773" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/backgroud_header_main.xml" value="0.119" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/header_main_menu.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_group_67.xml" value="0.1365" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_icon_back_lihat_selengkapnya.xml" value="0.1985" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_input_product.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector__3_.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_chat.xml" value="0.1875" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_star.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_vektor_setting.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/line_horizaontal.xml" value="0.1365" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/line_horizontal.xml" value="0.1365" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/line_vertikal.xml" value="0.1365" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/location_icon.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/tesbeck.xml" value="0.119" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_home.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -30,9 +30,9 @@
         android:layout_marginTop="30sp"
         android:layout_marginEnd="21dp"
         android:fontFamily="@font/avenir_black"
-        android:textSize="20dp"
         android:gravity="center"
-        android:text="Hore Mamat, kamu berhasil melakukan pendaftaran!"/>
+        android:text="Hore Mamat, kamu berhasil melakukan pendaftaran!"
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/descBerhasil"
