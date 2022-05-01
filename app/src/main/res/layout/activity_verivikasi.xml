@@ -114,6 +114,7 @@
 
     <Button
         android:id="@+id/buttonVerif"
+        android:onClick="toSuccesRegis"
         android:layout_width="229dp"
         android:layout_height="38dp"
         android:layout_marginTop="50dp"
