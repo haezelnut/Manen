@@ -21,8 +21,8 @@
 
 
         <ImageButton
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginStart="21dp"
             android:layout_marginEnd="11dp"
             android:onClick="backFromInputProduct"
@@ -40,294 +40,318 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearProduk1"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:background="@drawable/rectangle"
-        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
         android:layout_marginEnd="20dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
+        android:layout_marginStart="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearTopProduk">
+        app:layout_constraintTop_toBottomOf="@id/linearTopProduk"
+        app:tabSelectedTextColor="@color/orange"
+        app:tabTextColor="@color/orange" />
 
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="20dp"
-            android:src="@drawable/image_sayur_brokoli"/>
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearProduk1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:background="@drawable/rectangle"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tabs">-->
 
-        <LinearLayout
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:orientation="vertical">
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:src="@drawable/image_sayur_brokoli"/>-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Brokoli"
-                android:fontFamily="@font/avenir_black"
-                android:textSize="14dp"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Deksripsi produk"
-                android:textColor="@color/grey2"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:fontFamily="@font/avenir_roman"/>
-            <TextView
-                android:id="@+id/descHarga3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/grey2"
-                android:text="Rp 15.000"
-                android:fontFamily="@font/avenir_roman"/>
+<!--        <LinearLayout-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="5dp"
-                app:layout_constraintTop_toBottomOf="@id/descHarga3">
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Brokoli"-->
+<!--                android:fontFamily="@font/avenir_black"-->
+<!--                android:textSize="14dp"-->
+<!--                android:textColor="@color/black"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Deksripsi produk"-->
+<!--                android:textColor="@color/grey2"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:fontFamily="@font/avenir_roman"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/descHarga3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/grey2"-->
+<!--                android:text="Rp 15.000"-->
+<!--                android:fontFamily="@font/avenir_roman"/>-->
 
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="wrap_content"
-                    android:text="2 Kg"
-                    android:textColor="@color/grey2"
-                    android:layout_marginEnd="15dp"
-                    android:fontFamily="@font/avenir_roman"/>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/descHarga3">-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/grey2"
-                    android:fontFamily="@font/avenir_roman"
-                    android:text="Tersisa : 9"/>
-            </LinearLayout>
-        </LinearLayout>
+<!--                <TextView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="2 Kg"-->
+<!--                    android:textColor="@color/grey2"-->
+<!--                    android:layout_marginEnd="15dp"-->
+<!--                    android:fontFamily="@font/avenir_roman"/>-->
 
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@null"
-            android:src="@drawable/delet_icon"/>
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/grey2"-->
+<!--                    android:fontFamily="@font/avenir_roman"-->
+<!--                    android:text="Tersisa : 9"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
 
-        <View
-            android:layout_width="3dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="13dp"
-            android:layout_marginStart="13dp"
-            android:background="@drawable/line"/>
-        
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@null"
-            android:src="@drawable/edit_icon"/>
+<!--        <ImageButton-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:background="@null"-->
+<!--            android:src="@drawable/delet_icon"/>-->
 
-    </LinearLayout>
+<!--        <View-->
+<!--            android:layout_width="3dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:background="@drawable/line"/>-->
+<!--        -->
+<!--        <ImageButton-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:background="@null"-->
+<!--            android:src="@drawable/edit_icon"/>-->
 
-    <LinearLayout
-        android:id="@+id/linearProduk2"
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearProduk2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:background="@drawable/rectangle"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center_vertical"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/linearProduk1">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:src="@drawable/image_sayur_kubis_merah"/>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Kubis Merah"-->
+<!--                android:fontFamily="@font/avenir_black"-->
+<!--                android:textSize="14dp"-->
+<!--                android:textColor="@color/black"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Deksripsi produk"-->
+<!--                android:textColor="@color/grey2"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:fontFamily="@font/avenir_roman"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/descHarga1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/grey2"-->
+<!--                android:text="Rp 15.000"-->
+<!--                android:fontFamily="@font/avenir_roman"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/descHarga1">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="2 Kg"-->
+<!--                    android:textColor="@color/grey2"-->
+<!--                    android:layout_marginEnd="15dp"-->
+<!--                    android:fontFamily="@font/avenir_roman"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/grey2"-->
+<!--                    android:fontFamily="@font/avenir_roman"-->
+<!--                    android:text="Tersisa : 9"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:background="@null"-->
+<!--            android:src="@drawable/delet_icon"/>-->
+
+<!--        <View-->
+<!--            android:layout_width="3dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:background="@drawable/line"/>-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:background="@null"-->
+<!--            android:src="@drawable/edit_icon"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearProduk3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:background="@drawable/rectangle"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center_vertical"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/linearProduk2">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:src="@drawable/image_sayur_selada"/>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Selada"-->
+<!--                android:fontFamily="@font/avenir_black"-->
+<!--                android:textSize="14dp"-->
+<!--                android:textColor="@color/black"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Deksripsi produk"-->
+<!--                android:textColor="@color/grey2"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:fontFamily="@font/avenir_roman"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/descHarga"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/grey2"-->
+<!--                android:text="Rp 15.000"-->
+<!--                android:fontFamily="@font/avenir_roman"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/descHarga">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="2 Kg"-->
+<!--                    android:textColor="@color/grey2"-->
+<!--                    android:layout_marginEnd="15dp"-->
+<!--                    android:fontFamily="@font/avenir_roman"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/grey2"-->
+<!--                    android:fontFamily="@font/avenir_roman"-->
+<!--                    android:text="Tersisa : 9"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:background="@null"-->
+<!--            android:src="@drawable/delet_icon"/>-->
+
+<!--        <View-->
+<!--            android:layout_width="3dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:background="@drawable/line"/>-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:background="@null"-->
+<!--            android:src="@drawable/edit_icon"/>-->
+
+<!--    </LinearLayout>-->
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:background="@drawable/rectangle"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="24dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearProduk1">
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="20dp"
-            android:src="@drawable/image_sayur_kubis_merah"/>
-
-        <LinearLayout
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Kubis Merah"
-                android:fontFamily="@font/avenir_black"
-                android:textSize="14dp"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Deksripsi produk"
-                android:textColor="@color/grey2"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:fontFamily="@font/avenir_roman"/>
-            <TextView
-                android:id="@+id/descHarga1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/grey2"
-                android:text="Rp 15.000"
-                android:fontFamily="@font/avenir_roman"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="5dp"
-                app:layout_constraintTop_toBottomOf="@id/descHarga1">
-
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="wrap_content"
-                    android:text="2 Kg"
-                    android:textColor="@color/grey2"
-                    android:layout_marginEnd="15dp"
-                    android:fontFamily="@font/avenir_roman"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/grey2"
-                    android:fontFamily="@font/avenir_roman"
-                    android:text="Tersisa : 9"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@null"
-            android:src="@drawable/delet_icon"/>
-
-        <View
-            android:layout_width="3dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="13dp"
-            android:layout_marginStart="13dp"
-            android:background="@drawable/line"/>
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@null"
-            android:src="@drawable/edit_icon"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearProduk3"
-        android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:background="@drawable/rectangle"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="24dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearProduk2">
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="20dp"
-            android:src="@drawable/image_sayur_selada"/>
-
-        <LinearLayout
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Selada"
-                android:fontFamily="@font/avenir_black"
-                android:textSize="14dp"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Deksripsi produk"
-                android:textColor="@color/grey2"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:fontFamily="@font/avenir_roman"/>
-            <TextView
-                android:id="@+id/descHarga"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/grey2"
-                android:text="Rp 15.000"
-                android:fontFamily="@font/avenir_roman"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="5dp"
-                app:layout_constraintTop_toBottomOf="@id/descHarga">
-
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="wrap_content"
-                    android:text="2 Kg"
-                    android:textColor="@color/grey2"
-                    android:layout_marginEnd="15dp"
-                    android:fontFamily="@font/avenir_roman"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/grey2"
-                    android:fontFamily="@font/avenir_roman"
-                    android:text="Tersisa : 9"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@null"
-            android:src="@drawable/delet_icon"/>
-
-        <View
-            android:layout_width="3dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="13dp"
-            android:layout_marginStart="13dp"
-            android:background="@drawable/line"/>
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@null"
-            android:src="@drawable/edit_icon"/>
-
-    </LinearLayout>
+        app:layout_constraintTop_toBottomOf="@id/tabs" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floating_action_button"
+        android:id="@+id/tambah_produk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
-        android:backgroundTint="@color/orange"
+        android:backgroundTint="@color/fab"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.954"
