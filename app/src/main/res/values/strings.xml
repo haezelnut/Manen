@@ -12,5 +12,7 @@
     <string name="second_slide_desc">Sebelum menjual produk ke masyarakat luas kamu harus terdaftar dulu jadi seller! Gampang kok, kamu ikutin aja langkah yang tersedia</string>
     <string name="third_slide_desc">Biar masyarakat langsung yakin untuk beli produkmu, kelola seluruh informasi tentang produkmu dulu ya!</string>
     <string name="fourth_slide_desc">Konsumen senang, kamu ikutan senang deh karena dapet penghasilan dari penjualan produkmu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

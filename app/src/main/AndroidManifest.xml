@@ -13,9 +13,6 @@
             android:name=".TambahProduk"
             android:exported="false" />
         <activity
-            android:name=".Pesan"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

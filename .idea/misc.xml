@@ -20,7 +20,8 @@
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_group_67.xml" value="0.1365" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_icon_back_lihat_selengkapnya.xml" value="0.1985" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_input_product.xml" value="0.1815" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_input_product.xml" value="0.16" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_produk.xml" value="0.1355" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector__3_.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_chat.xml" value="0.1875" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_star.xml" value="0.1815" />
@@ -34,16 +35,21 @@
         <entry key="..\:/Manen/app/src/main/res/drawable/rounded_edittext1.xml" value="0.1725" />
         <entry key="..\:/Manen/app/src/main/res/drawable/tesbeck.xml" value="0.119" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.22" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_pesan.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_tambah_produk.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.33" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_pesan.xml" value="0.33" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_ulasan.xml" value="0.1496365968362548" />
         <entry key="..\:/Manen/app/src/main/res/layout/on_boarding.xml" value="0.22083333333333333" />
         <entry key="..\:/Manen/app/src/main/res/layout/slides_layout.xml" value="0.22083333333333333" />
         <entry key="..\:/Manen/app/src/main/res/menu/bottom_nav_bar.xml" value="0.2937152629328773" />
+        <entry key="..\:/Manen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1355" />
       </map>
     </option>
   </component>
