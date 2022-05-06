@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingProdukFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/grid_content_selling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="5dp">
+
+                <Spinner
+                    android:id="@+id/spinnerWaktuRating"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_buttontext1"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="16dp">
+
+                <Spinner
+                    android:id="@+id/spinnerJumlahUlasanRating"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_buttontext1"
+                    />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        
+    </GridLayout>
+        
+        <ScrollView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="200dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/gambarProduk1"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/image_sayur_brokoli"
+                        />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/gambarProduk1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brokoli"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Selesai diproses pada 3/4/2022"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bintang5"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="200dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/gambarProduk3"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/image_sayur_kubis_merah"
+                        />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/gambarProduk3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kubis Merah"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Selesai diproses pada 3/4/2022"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bintang5"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="200dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/gambarProduk2"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/image_sayur_selada"
+                        />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/gambarProduk2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Selada"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Selesai diproses pada 9/2/2022"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bintang5"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
