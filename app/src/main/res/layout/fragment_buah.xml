@@ -83,6 +83,7 @@
         </LinearLayout>
 
         <ImageButton
+            android:id="@+id/btnDeleteB"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@null"
@@ -96,6 +97,7 @@
             android:background="@drawable/line" />
 
         <ImageButton
+            android:id="@+id/btnEditB"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@null"
