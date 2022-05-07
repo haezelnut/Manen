@@ -11,4 +11,6 @@
     <color name="background">#F4F8FB</color>
     <color name="orange">#FC9731</color>
     <color name="grey2">#666666</color>
+    <color name="fab">#92C248</color>
+
 </resources>
