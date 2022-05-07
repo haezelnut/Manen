@@ -6,9 +6,772 @@
     tools:context=".PenilaianPembeliFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/grid_content_selling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="5dp">
+
+                    <Spinner
+                        android:id="@+id/spinnerWaktuRating"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_buttontext1" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="16dp">
+
+                    <Spinner
+                        android:id="@+id/spinnerJumlahUlasanRating"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_buttontext1"
+                        />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avenir_black"
+                android:text="Produk"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avenir_black"
+                android:text="Pilih Produk"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/gambarProdukDinilai1"
+                        android:layout_width="73dp"
+                        android:layout_height="67dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/image_sayur_brokoli" />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/gambarProdukDinilai1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="130dp"
+                        android:gravity="center_vertical"
+                        android:layout_height="70dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Brokoli"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Deskripsi Produk"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Rp.15.000"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/jumlahProduk1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:text="2 Kg"
+                                android:textColor="@color/grey2"
+                                android:fontFamily="@font/avenir_roman"/>
+
+                            <TextView
+                                android:gravity="right"
+                                android:layout_alignParentRight="true"
+                                android:layout_toRightOf="@id/jumlahProduk1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:text="Tersisa : 9"
+                                android:textColor="@color/grey2"
+                                android:fontFamily="@font/avenir_roman"/>
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp">
+
+                    <TextView
+                        android:id="@+id/peniilaianProduk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:fontFamily="@font/avenir_black"
+                        android:text="Penilaian Produk"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/peniilaianProduk"
+                        android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bintang5"
+                        />
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="4.4/5"
+                        android:fontFamily="@font/avenir_black"
+                        android:textColor="#EA2424"
+                        android:textSize="16dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="85dp"
+                            android:layout_height="wrap_content"
+                            android:text="(3 Ulasan)"
+                            android:fontFamily="@font/avenir_black"
+                            android:textColor="#9B9B9A"
+                            android:textSize="16dp"/>
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/kataPembeli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:fontFamily="@font/avenir_black"
+                        android:text="Kata Pembeli"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/ulasanKonsumen1"
+                        android:layout_below="@+id/kataPembeli"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/ProfilKonsumen1"
+                        android:layout_marginTop="25dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/fotoKonsumen1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/foto_ulasan_konsumen"
+                        />
+
+                        <RelativeLayout
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/fotoKonsumen1">
+
+                            <TextView
+                                android:id="@+id/namaKonsumen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_black"
+                                android:text="Ranny Apriani"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+
+                            <ImageView
+                                android:layout_marginTop="6dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/namaKonsumen"
+                                android:layout_alignParentBottom="true"
+                                android:src="@drawable/bintang5" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/textInformasiProduk1"
+                        android:layout_below="@id/ProfilKonsumen1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Berat"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textColor="#9B9B9A"
+                            android:textSize="16sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kualitas"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textColor="#9B9B9A"
+                            android:textSize="16sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Harga"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textColor="#9B9B9A"
+                            android:textSize="16sp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/ProfilKonsumen1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": 2 Kg"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textColor="#9B9B9A"
+                            android:textSize="16sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": Baik"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textColor="#9B9B9A"
+                            android:textSize="16sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": Baik"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textColor="#9B9B9A"
+                            android:textSize="16sp"
+                            />
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textKomentarKonsumen1"
+                        android:layout_marginTop="3dp"
+                        android:layout_below="@+id/textInformasiProduk1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textSize="16sp"
+                        android:textColor="#9B9B9A"
+                        android:text="Produk baik, harganya juga murah walaupun ada sedikit bagian yang jelek, tapi tidak masalah karena kualitasnya juga masih laya"/>
+
+                    <RelativeLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_below="@id/textKomentarKonsumen1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/video_ulasan1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/gambar_video_sawi_putih" />
+
+                        <ImageView
+                            android:layout_toRightOf="@id/video_ulasan1"
+                            android:src="@drawable/gambar_sawi_putih"
+                            android:layout_marginLeft="13dp"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ulasanKonsumen2"
+                        android:layout_below="@+id/ulasanKonsumen1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:id="@+id/ProfilKonsumen2"
+                            android:layout_marginTop="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/fotoKonsumen2"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/foto_ulasan_konsumen"
+                                />
+
+                            <RelativeLayout
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toRightOf="@id/fotoKonsumen2">
+
+                                <TextView
+                                    android:id="@+id/namaKonsumen2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/avenir_black"
+                                    android:text="Mawar Sucipta"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                                <ImageView
+                                    android:layout_marginTop="6dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/namaKonsumen2"
+                                    android:layout_alignParentBottom="true"
+                                    android:src="@drawable/bintang5" />
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/textInformasiProduk2"
+                            android:layout_below="@id/ProfilKonsumen2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_marginTop="5dp"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Berat"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Kualitas"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Harga"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_marginTop="5dp"
+                                android:layout_below="@id/ProfilKonsumen2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=": 2 Kg"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=": Baik"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=": Baik"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textKomentarKonsumen2"
+                            android:layout_marginTop="3dp"
+                            android:layout_below="@+id/textInformasiProduk2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textSize="16sp"
+                            android:textColor="#9B9B9A"
+                            android:text="Produk baik, harganya juga murah walaupun ada sedikit bagian yang jelek, tapi tidak masalah karena kualitasnya juga masih laya"/>
+
+                        <RelativeLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_below="@id/textKomentarKonsumen2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/video_ulasan2"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/gambar_video_sawi_putih" />
+
+                            <ImageView
+                                android:layout_toRightOf="@id/video_ulasan2"
+                                android:src="@drawable/gambar_sawi_putih"
+                                android:layout_marginLeft="13dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"/>
+
+
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ulasanKonsumen3"
+                        android:layout_below="@+id/ulasanKonsumen2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:id="@+id/ProfilKonsumen3"
+                            android:layout_marginTop="25dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/fotoKonsumen3"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/foto_ulasan_konsumen"
+                                />
+
+                            <RelativeLayout
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toRightOf="@id/fotoKonsumen3">
+
+                                <TextView
+                                    android:id="@+id/namaKonsumen3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/avenir_black"
+                                    android:text="Susi Susanti"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                                <ImageView
+                                    android:layout_marginTop="6dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/namaKonsumen3"
+                                    android:layout_alignParentBottom="true"
+                                    android:src="@drawable/bintang5" />
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/textInformasiProduk3"
+                            android:layout_below="@id/ProfilKonsumen3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_marginTop="5dp"
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Berat"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Kualitas"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Harga"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_marginTop="5dp"
+                                android:layout_below="@id/ProfilKonsumen3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=": 2 Kg"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=": Baik"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=": Baik"
+                                    android:fontFamily="@font/avenir_roman"
+                                    android:textColor="#9B9B9A"
+                                    android:textSize="16sp"
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textKomentarKonsumen3"
+                            android:layout_marginTop="3dp"
+                            android:layout_below="@+id/textInformasiProduk3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avenir_roman"
+                            android:textSize="16sp"
+                            android:textColor="#9B9B9A"
+                            android:text="Produk baik, harganya juga murah walaupun ada sedikit bagian yang jelek, tapi tidak masalah karena kualitasnya juga masih laya"/>
+
+                        <RelativeLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_below="@id/textKomentarKonsumen3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/video_ulasan3"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/gambar_video_sawi_putih" />
+
+                            <ImageView
+                                android:layout_toRightOf="@id/video_ulasan3"
+                                android:src="@drawable/gambar_sawi_putih"
+                                android:layout_marginLeft="13dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"/>
+
+
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="10dp"
+                    />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
 
 </FrameLayout>

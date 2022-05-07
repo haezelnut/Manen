@@ -35,11 +35,11 @@
                 android:paddingRight="5dp">
 
                 <Spinner
+                    android:elevation="10dp"
                     android:id="@+id/spinnerWaktuRating"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:background="@drawable/rounded_buttontext1"
-                    />
+                    android:background="@drawable/rounded_buttontext1" />
 
             </RelativeLayout>
 
@@ -59,11 +59,11 @@
                 android:paddingRight="16dp">
 
                 <Spinner
+                    android:elevation="10dp"
                     android:id="@+id/spinnerJumlahUlasanRating"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:background="@drawable/rounded_buttontext1"
-                    />
+                    android:background="@drawable/rounded_buttontext1" />
 
             </RelativeLayout>
 
@@ -73,11 +73,11 @@
     </GridLayout>
         
         <ScrollView
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             
             <LinearLayout
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -87,7 +87,7 @@
                     android:background="@drawable/background_produk"
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="10dp"
-                    android:elevation="200dp"
+                    android:elevation="10dp"
                     >
 
                     <ImageView
@@ -140,7 +140,7 @@
                     android:background="@drawable/background_produk"
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="10dp"
-                    android:elevation="200dp"
+                    android:elevation="10dp"
                     >
 
                     <ImageView
@@ -193,7 +193,7 @@
                     android:background="@drawable/background_produk"
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginVertical="10dp"
-                    android:elevation="200dp"
+                    android:elevation="10dp"
                     >
 
                     <ImageView
@@ -239,6 +239,174 @@
                     </LinearLayout>
 
                 </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/gambarProduk4"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/image_buah_pisang"
+                        />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/gambarProduk4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pisang"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Selesai diproses pada 5/2/2022"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bintang5"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/gambarProduk5"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/image_buah_tomat"
+                        />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/gambarProduk5"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tomat"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Selesai diproses pada 5/4/2022"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bintang5"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/gambarProduk6"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/image_buah_jeruk"
+                        />
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/gambarProduk6"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jeruk"
+                            android:fontFamily="@font/avenir_black"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Selesai diproses pada 5/4/2022"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bintang5"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/background_produk"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:elevation="10dp"
+                    />
 
             </LinearLayout>
 
