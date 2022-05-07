@@ -49,10 +49,12 @@
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.19" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/ic_bisnis_analisis.xml" value="0.19" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/line_horizaontal.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/line_pengaturan.xml" value="0.19" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/line_vertikal.xml" value="0.19" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/rectangle.xml" value="0.2165" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/rounded_buttontext1.xml" value="0.19" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/rounded_edittext1.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.25" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_home.xml" value="0.209375" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_login.xml" value="0.209375" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_menambahkan_produk.xml" value="0.21629213483146068" />
@@ -66,6 +68,7 @@
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_buah.xml" value="0.1953125" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_hasil_ternak.xml" value="0.209375" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_pengaturan.xml" value="0.25" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_pesan.xml" value="0.209375" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_sayur.xml" value="0.209375" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_sayuran.xml" value="0.209375" />
