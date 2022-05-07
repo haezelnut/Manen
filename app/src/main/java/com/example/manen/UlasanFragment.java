@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,12 +39,27 @@ public class UlasanFragment extends Fragment {
         tabLayoutUlasan = getView().findViewById(R.id.tabLayoutUlasan);
         viewPagerUlasan = getView().findViewById(R.id.viewPageUlasan);
 
-        tabLayoutUlasan.setupWithViewPager(viewPagerUlasan);
+        getTabs();
+        //tabLayoutUlasan.setupWithViewPager(viewPagerUlasan);
 
-        UlasanAdaptor ulasanAdaptor = new UlasanAdaptor(getFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        /*UlasanAdaptor ulasanAdaptor = new UlasanAdaptor(getFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         ulasanAdaptor.addFragment(new RatingProdukFragment(),"Rating");
         ulasanAdaptor.addFragment(new PenilaianPembeliFragment(),"Penilaian");
-        viewPagerUlasan.setAdapter(ulasanAdaptor);
+        viewPagerUlasan.setAdapter(ulasanAdaptor); */
+    }
+
+    public void getTabs(){
+        final SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getFragmentManager());
+        new Handler().post(new Runnable() {
+            @Override
+            public void run() {
+                sectionsPagerAdapter.addFragment(new RatingProdukFragment(),"Rating Produk");
+                sectionsPagerAdapter.addFragment(new PenilaianPembeliFragment(),"Penilaian Penjual");
+
+                viewPagerUlasan.setAdapter(sectionsPagerAdapter);
+                tabLayoutUlasan.setupWithViewPager(viewPagerUlasan);
+            }
+        });
     }
 
     public UlasanFragment() {

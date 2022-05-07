@@ -215,9 +215,12 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             android:paddingLeft="16dp"
-                            android:paddingRight="10dp">
+                            android:paddingRight="10dp"
+                            >
 
                             <ImageButton
+                                android:id="@+id/toProduct"
+                                android:onClick="produk"
                                 android:layout_width="match_parent"
                                 android:layout_height="110dp"
                                 android:background="@drawable/rounded_buttontext1"
