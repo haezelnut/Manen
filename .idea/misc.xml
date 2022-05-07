@@ -48,7 +48,8 @@
         <entry key="..\:/Manen/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_tambah_produk.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_pengaturan.xml" value="0.2937152629328773" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_penilaian_pembeli.xml" value="0.22" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_pesan.xml" value="0.25" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_produk_bahan_makanan.xml" value="0.33" />

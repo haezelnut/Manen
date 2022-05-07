@@ -16,13 +16,13 @@
             android:layout_width="match_parent"
             android:layout_height="114dp"
             android:layout_alignParentTop="true"
-            android:background="#FB9731">
+            android:background="@drawable/background_top">
 
             <RelativeLayout
                 android:id="@+id/headerHome"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/backgroundlinesheader">
+               >
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/photoProfile"
@@ -31,7 +31,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginLeft="23dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="20dp"
                     android:src="@drawable/foto_amat"
                     app:shapeAppearanceOverlay="@style/roundedImageViewProfil" />
 
@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="45dp"
+                    android:layout_marginBottom="55dp"
                     android:layout_toEndOf="@id/photoProfile"
                     android:fontFamily="@font/avenir_black"
                     android:text="Mamat"
@@ -53,7 +53,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_marginLeft="8dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginBottom="26dp"
                     android:layout_toEndOf="@id/photoProfile"
                     android:drawableLeft="@drawable/ic_baseline_location_on_24"
                     android:fontFamily="@font/avenir_book"
@@ -69,7 +69,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginRight="16dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginBottom="25dp"
                     android:background="@drawable/rounded_buttontext1"
                     android:elevation="2dp"
                     android:src="@drawable/vector_icon_share" />
