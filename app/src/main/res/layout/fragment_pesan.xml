@@ -14,26 +14,25 @@
 
         <LinearLayout
             app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/linearTop"
-        android:layout_width="match_parent"
-        android:layout_height="114dp"
-        android:background="#FB9731"
-        android:gravity="center_vertical">
+            android:id="@+id/linearTop"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:background="@drawable/background_top"
+            android:gravity="center_vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/backgroundlinesheader">
+                android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_marginStart="23dp"
-            android:fontFamily="@font/avenir_black"
-            android:text="Pesan"
-            android:textColor="@color/white"
-            android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="23dp"
+                    android:fontFamily="@font/avenir_black"
+                    android:gravity="center"
+                    android:text="Pesan"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
 
             </RelativeLayout>
     </LinearLayout>
@@ -43,7 +42,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginEnd="22dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -139,7 +139,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginEnd="22dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -233,7 +234,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginEnd="22dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"

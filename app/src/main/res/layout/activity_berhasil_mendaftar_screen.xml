@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,60 +11,58 @@
         android:id="@+id/imageBerhasilScreen"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="109dp"
-        android:src="@drawable/icon" />
+        android:layout_marginTop="30dp"
+        android:src="@drawable/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tittleBerhasil"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_below="@+id/imageBerhasilScreen"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="30sp"
-        android:layout_marginEnd="21dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/avenir_black"
         android:gravity="center"
         android:text="Hore Mamat, kamu berhasil melakukan pendaftaran!"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBerhasilScreen" />
 
     <TextView
         android:id="@+id/descBerhasil"
         android:layout_width="280dp"
         android:layout_height="30dp"
         android:layout_below="@+id/tittleBerhasil"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="40sp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/avenir_black"
         android:gravity="center"
         android:text="Selamat ya, ayo mulai jual produkmu ke masyarakat!"
         android:textColor="@color/grey"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tittleBerhasil" />
 
     <Button
-        android:onClick="toHomeScreen"
-        android:layout_width="wrap_content"
+        android:layout_width="231dp"
         android:layout_height="41dp"
         android:layout_below="@id/descBerhasil"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="245dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/rounded_buttontext1"
         android:fontFamily="@font/avenir_black"
+        android:onClick="toHomeScreen"
         android:text="mulai"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descBerhasil" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
