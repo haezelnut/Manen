@@ -51,6 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearTopProduk"
         app:tabSelectedTextColor="@color/orange"
+        app:tabTextAppearance="@style/tab_text"
         app:tabTextColor="@color/orange" />
 
     <androidx.viewpager.widget.ViewPager

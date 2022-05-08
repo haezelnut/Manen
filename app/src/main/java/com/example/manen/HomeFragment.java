@@ -85,6 +85,15 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         ImageButton btn1 = (ImageButton) view.findViewById(R.id.toProduct);
+        ImageButton btnPromo = (ImageButton) view.findViewById(R.id.btnPromo);
+
+        btnPromo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(),Promo.class);
+                startActivity(in);
+            }
+        });
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
