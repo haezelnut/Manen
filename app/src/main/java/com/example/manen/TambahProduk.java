@@ -25,7 +25,8 @@ public class TambahProduk extends AppCompatActivity {
 //    Dialog dialog;
 
     public void backFromInputProduct(View v){
-        onBackPressed();
+        Intent intent = new Intent(TambahProduk.this, HomeActivity.class);
+        startActivity(intent);
     }
 
     public void tambahProduk(View v){
