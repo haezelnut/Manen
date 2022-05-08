@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BahanMakananFavoriteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDiSukai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_susu" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDiSukai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Susu"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:text="Rp.13.000"
+                        android:background="@drawable/strikethrough_text"
+                        android:textColor="#9B9B9A"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.10.000"
+                        android:textColor="#EA2424"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 L"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:gravity="right"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Tersisa : 11"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="25"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDinilai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_telur" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDinilai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Telur"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.9.000"
+                        android:textColor="#5B5B5B"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 Kg"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk2"
+                            android:fontFamily="@font/avenir_roman"
+                            android:gravity="right"
+                            android:text="Tersisa : 17"
+                            android:textColor="@color/grey2"
+                            android:textSize="14dp" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="30"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDiSukai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_susu" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDiSukai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Susu"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:text="Rp.13.000"
+                        android:background="@drawable/strikethrough_text"
+                        android:textColor="#9B9B9A"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.10.000"
+                        android:textColor="#EA2424"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 L"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:gravity="right"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Tersisa : 11"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="25"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDinilai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_telur" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDinilai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Telur"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.9.000"
+                        android:textColor="#5B5B5B"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 Kg"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk2"
+                            android:fontFamily="@font/avenir_roman"
+                            android:gravity="right"
+                            android:text="Tersisa : 17"
+                            android:textColor="@color/grey2"
+                            android:textSize="14dp" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="30"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDiSukai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_susu" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDiSukai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Susu"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:text="Rp.13.000"
+                        android:background="@drawable/strikethrough_text"
+                        android:textColor="#9B9B9A"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.10.000"
+                        android:textColor="#EA2424"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 L"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:gravity="right"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Tersisa : 11"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="25"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDinilai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_telur" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDinilai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Telur"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.9.000"
+                        android:textColor="#5B5B5B"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 Kg"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk2"
+                            android:fontFamily="@font/avenir_roman"
+                            android:gravity="right"
+                            android:text="Tersisa : 17"
+                            android:textColor="@color/grey2"
+                            android:textSize="14dp" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="30"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDiSukai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_susu" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDiSukai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Susu"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:text="Rp.13.000"
+                        android:background="@drawable/strikethrough_text"
+                        android:textColor="#9B9B9A"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.10.000"
+                        android:textColor="#EA2424"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 L"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:gravity="right"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="Tersisa : 11"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="25"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_produk"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/gambarProdukDinilai1"
+                    android:layout_width="73dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/image_ternak_telur" />
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/gambarProdukDinilai1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Telur"
+                        android:fontFamily="@font/avenir_black"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="Rp.9.000"
+                        android:textColor="#5B5B5B"
+                        android:fontFamily="@font/avenir_roman"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/jumlahProduk2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:text="1 Kg"
+                            android:textColor="@color/grey2"
+                            android:fontFamily="@font/avenir_roman"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@id/jumlahProduk2"
+                            android:fontFamily="@font/avenir_roman"
+                            android:gravity="right"
+                            android:text="Tersisa : 17"
+                            android:textColor="@color/grey2"
+                            android:textSize="14dp" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:elevation="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:textColor="#9B9B9A"
+                        android:text="30"
+                        android:textSize="15sp"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

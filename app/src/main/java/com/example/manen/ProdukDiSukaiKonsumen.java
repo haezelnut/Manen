@@ -3,31 +3,25 @@ package com.example.manen;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class Produk extends AppCompatActivity {
+public class ProdukDiSukaiKonsumen extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager viewPager;
 
-    public void backFromProduct(View v){
+    public void backFromFavorite(View v){
         onBackPressed();
-    }
-
-    public void produkDiSukai(View v){
-        Intent intent = new Intent(Produk.this, ProdukDiSukaiKonsumen.class);
-        startActivity(intent);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_produk);
+        setContentView(R.layout.activity_produk_di_sukai_konsumen);
 
         tabLayout = findViewById(R.id.tabs);
         viewPager = findViewById(R.id.view_pager);
@@ -39,9 +33,9 @@ public class Produk extends AppCompatActivity {
         new Handler().post(new Runnable() {
             @Override
             public void run() {
-                sectionsPagerAdapter.addFragment(new ProdukSayuranFragment(),"Sayuran");
-                sectionsPagerAdapter.addFragment(new ProdukBuahFragment(),"Buah");
-                sectionsPagerAdapter.addFragment(new ProdukBahanMakananFragment(),"Bahan Makanan");
+                sectionsPagerAdapter.addFragment(new SayuranFavoriteFragment(),"Sayuran");
+                sectionsPagerAdapter.addFragment(new BuahFavoriteFragment(),"Buah");
+                sectionsPagerAdapter.addFragment(new BahanMakananFavoriteFragment(),"Bahan Makanan");
 
                 viewPager.setAdapter(sectionsPagerAdapter);
                 tabLayout.setupWithViewPager(viewPager);

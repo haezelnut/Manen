@@ -54,7 +54,7 @@ public class UlasanFragment extends Fragment {
             @Override
             public void run() {
                 sectionsPagerAdapter.addFragment(new RatingProdukFragment(),"Rating Produk");
-                sectionsPagerAdapter.addFragment(new PenilaianPembeliFragment(),"Penilaian Penjual");
+                sectionsPagerAdapter.addFragment(new PenilaianPembeliFragment(),"Penilaian Penbeli");
 
                 viewPagerUlasan.setAdapter(sectionsPagerAdapter);
                 tabLayoutUlasan.setupWithViewPager(viewPagerUlasan);

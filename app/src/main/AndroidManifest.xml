@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Manen">
         <activity
+            android:name=".ProdukDiSukaiKonsumen"
+            android:exported="false" />
+        <activity
             android:name=".Produk"
             android:exported="false" />
         <activity
