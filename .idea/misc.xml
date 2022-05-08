@@ -39,11 +39,13 @@
         <entry key="..\:/Manen/app/src/main/res/drawable/tesbeck.xml" value="0.119" />
         <entry key="..\:/Manen/app/src/main/res/drawable/transparent_backgroud.xml" value="0.199" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.22" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_detail_pesanan.xml" value="0.5" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_menambahkan_produk.xml" value="0.2937152629328773" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_pesan.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_produk.xml" value="0.45925925925925926" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_pesanan.xml" value="0.2937152629328773" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_produk.xml" value="0.22" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_produk_di_sukai_konsumen.xml" value="0.5" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.33" />
@@ -52,10 +54,13 @@
         <entry key="..\:/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_bahan_makanan_favorite.xml" value="0.2937152629328773" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_buah_favorite.xml" value="0.2937152629328773" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_detail_order.xml" value="0.2937152629328773" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_di_komplain.xml" value="0.2937152629328773" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_pengaturan.xml" value="0.2937152629328773" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_penilaian_pembeli.xml" value="0.22" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_penilaian_pembeli.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_pesan.xml" value="0.25" />
+        <entry key="..\:/Manen/app/src/main/res/layout/fragment_pesanan_selesai.xml" value="0.2937152629328773" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_produk_bahan_makanan.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_produk_buah.xml" value="0.18" />
         <entry key="..\:/Manen/app/src/main/res/layout/fragment_produk_sayuran.xml" value="0.33" />

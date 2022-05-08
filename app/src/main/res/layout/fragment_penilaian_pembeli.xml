@@ -78,15 +78,15 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="20dp"
             >
+
             <TextView
-                android:layout_alignParentLeft="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
                 android:fontFamily="@font/avenir_black"
                 android:text="Produk"
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
+                android:textSize="16dp" />
 
             <TextView
                 android:layout_alignParentRight="true"
@@ -245,7 +245,7 @@
 
                 <RelativeLayout
                     android:layout_marginTop="25dp"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginHorizontal="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -404,7 +404,8 @@
                         android:layout_marginTop="8dp"
                         android:layout_below="@id/textKomentarKonsumen1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        >
 
                         <ImageView
                             android:id="@+id/video_ulasan1"
@@ -413,11 +414,22 @@
                             android:src="@drawable/gambar_video_sawi_putih" />
 
                         <ImageView
-                            android:layout_toRightOf="@id/video_ulasan1"
-                            android:src="@drawable/gambar_sawi_putih"
-                            android:layout_marginLeft="13dp"
                             android:layout_width="100dp"
-                            android:layout_height="100dp"/>
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@id/video_ulasan1"
+                            android:src="@drawable/gambar_sawi_putih" />
+
+                        <ImageView
+                            android:layout_marginTop="20dp"
+                            android:layout_below="@id/video_ulasan1"
+                            android:layout_alignParentBottom="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/line_horizaontal"
+                            />
+
+
 
 
 
@@ -578,13 +590,20 @@
                                 android:src="@drawable/gambar_video_sawi_putih" />
 
                             <ImageView
-                                android:layout_toRightOf="@id/video_ulasan2"
-                                android:src="@drawable/gambar_sawi_putih"
-                                android:layout_marginLeft="13dp"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"/>
+                                android:layout_height="100dp"
+                                android:layout_marginLeft="13dp"
+                                android:layout_toRightOf="@id/video_ulasan2"
+                                android:src="@drawable/gambar_sawi_putih" />
 
-
+                            <ImageView
+                                android:layout_marginTop="20dp"
+                                android:layout_below="@id/video_ulasan2"
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_horizaontal"
+                                />
 
                         </RelativeLayout>
 
@@ -721,14 +740,14 @@
 
                         <TextView
                             android:id="@+id/textKomentarKonsumen3"
-                            android:layout_marginTop="3dp"
-                            android:layout_below="@+id/textInformasiProduk3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_below="@+id/textInformasiProduk3"
+                            android:layout_marginTop="3dp"
                             android:fontFamily="@font/avenir_roman"
-                            android:textSize="16sp"
+                            android:text="Produk baik, harganya juga murah walaupun ada sedikit bagian yang jelek, tapi tidak masalah karena kualitasnya juga masih laya"
                             android:textColor="#9B9B9A"
-                            android:text="Produk baik, harganya juga murah walaupun ada sedikit bagian yang jelek, tapi tidak masalah karena kualitasnya juga masih laya"/>
+                            android:textSize="16sp" />
 
                         <RelativeLayout
                             android:layout_marginTop="8dp"
@@ -743,13 +762,20 @@
                                 android:src="@drawable/gambar_video_sawi_putih" />
 
                             <ImageView
-                                android:layout_toRightOf="@id/video_ulasan3"
-                                android:src="@drawable/gambar_sawi_putih"
-                                android:layout_marginLeft="13dp"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"/>
+                                android:layout_height="100dp"
+                                android:layout_marginLeft="13dp"
+                                android:layout_toRightOf="@id/video_ulasan3"
+                                android:src="@drawable/gambar_sawi_putih" />
 
-
+                            <ImageView
+                                android:layout_marginTop="20dp"
+                                android:layout_below="@id/video_ulasan3"
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/line_horizaontal"
+                                />
 
                         </RelativeLayout>
 
