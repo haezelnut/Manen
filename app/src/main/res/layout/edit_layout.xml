@@ -239,7 +239,8 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/btnSimpanEdit"
+                    android:id="@+id/btnSimpan"
+                    android:onClick="btnSimpan"
                     android:layout_width="249dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="15dp"
