@@ -14,15 +14,13 @@
         <entry key="..\:/Manen/app/src/main/res/drawable/back_vector.xml" value="0.1655" />
         <entry key="..\:/Manen/app/src/main/res/drawable/backgroud_header_main.xml" value="0.119" />
         <entry key="..\:/Manen/app/src/main/res/drawable/background_input_text.xml" value="0.283" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/background_produk.xml" value="0.199" />
         <entry key="..\:/Manen/app/src/main/res/drawable/facebook_icon.xml" value="0.1485" />
         <entry key="..\:/Manen/app/src/main/res/drawable/header_main_menu.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1025" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_group_67.xml" value="0.1365" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_icon_back_lihat_selengkapnya.xml" value="0.1985" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_input_product.xml" value="0.16" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/ic_produk.xml" value="0.1355" />
+        <entry key="..\:/Manen/app/src/main/res/drawable/ic_input_product.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector__3_.xml" value="0.1815" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_chat.xml" value="0.1875" />
         <entry key="..\:/Manen/app/src/main/res/drawable/ic_vector_star.xml" value="0.1815" />
@@ -32,35 +30,56 @@
         <entry key="..\:/Manen/app/src/main/res/drawable/line_horizontal.xml" value="0.1365" />
         <entry key="..\:/Manen/app/src/main/res/drawable/line_vertikal.xml" value="0.1365" />
         <entry key="..\:/Manen/app/src/main/res/drawable/location_icon.xml" value="0.1815" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/rectangle.xml" value="0.199" />
         <entry key="..\:/Manen/app/src/main/res/drawable/rounded_buttontext1.xml" value="0.1585" />
         <entry key="..\:/Manen/app/src/main/res/drawable/rounded_edittext1.xml" value="0.1725" />
         <entry key="..\:/Manen/app/src/main/res/drawable/tesbeck.xml" value="0.119" />
-        <entry key="..\:/Manen/app/src/main/res/drawable/transparent_backgroud.xml" value="0.199" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.22" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Manen/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_menambahkan_produk.xml" value="0.2937152629328773" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_pesan.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/activity_produk.xml" value="0.25" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_tambah_produk.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_pengaturan.xml" value="0.2937152629328773" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_penilaian_pembeli.xml" value="0.22" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_pesan.xml" value="0.25" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_produk_bahan_makanan.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_produk_buah.xml" value="0.18" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_produk_sayuran.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_rating_produk.xml" value="0.33" />
-        <entry key="..\:/Manen/app/src/main/res/layout/fragment_ulasan.xml" value="0.33" />
         <entry key="..\:/Manen/app/src/main/res/layout/on_boarding.xml" value="0.22083333333333333" />
         <entry key="..\:/Manen/app/src/main/res/layout/slides_layout.xml" value="0.22083333333333333" />
         <entry key="..\:/Manen/app/src/main/res/menu/bottom_nav_bar.xml" value="0.2937152629328773" />
-        <entry key="..\:/Manen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1355" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/ic_bisnis_analisis.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/line_horizaontal.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/line_pengaturan.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/line_vertikal.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/rectangle.xml" value="0.2165" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/rounded_buttontext1.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/rounded_edittext1.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_berhasil_mendaftar_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_home.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_login.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_menambahkan_produk.xml" value="0.21629213483146068" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_pesan.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_produk.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_registrasi.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_splash_screen.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_tambah_produk.xml" value="0.25" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_tambah_produk2.xml" value="1.0" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_verivikasi.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/berhasil_tambah_produk_layour.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/berhasil_tambah_produk_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/edit_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_buah.xml" value="0.1953125" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_hasil_ternak.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_pengaturan.xml" value="0.25" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_pesan.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_produk_bahan_makanan.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_rating_produk.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_sayur.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_sayuran.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/fragment_ulasan.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/on_boarding.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/slides_layout.xml" value="0.209375" />
       </map>
     </option>
   </component>
