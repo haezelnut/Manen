@@ -38,6 +38,8 @@
     </com.google.android.material.bottomappbar.BottomAppBar>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:padding="5dp"
+        android:background="@color/fab"
         android:onClick="addProduct"
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -45,7 +47,7 @@
         app:fabCustomSize="90dp"
         app:layout_anchor="@id/bottomAppBar"
         android:src="@drawable/tambah_produk_icon"
-        app:maxImageSize="85dp"
+        app:maxImageSize="80dp"
         app:elevation="5dp"
         />
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
