@@ -36,7 +36,7 @@ public class LacakPesanan extends AppCompatActivity {
         spinnerBulan.setAdapter(adapter1);
 
         ArrayAdapter<String> adapter2=new ArrayAdapter<String>(this, R.layout.my_selected_item, jenis);
-        adapter2.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+        adapter2.setDropDownViewResource(R.layout.my_dropdown_item);
         spinnerJenis.setAdapter(adapter2);
 
         spinnerBulan.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
