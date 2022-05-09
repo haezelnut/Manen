@@ -152,11 +152,21 @@
                    android:textColor="#5B5B5B"
                    android:textSize="16sp" />
 
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=": "
+                   android:textColor="#5B5B5B"
+                   android:textSize="16sp"
+                   android:fontFamily="@font/avenir_roman"
+                   />
+
                <TextView
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:fontFamily="@font/avenir_roman"
-                   android:text=": 12345678910111213"
+                   android:text="12345678910111213"
                    android:textColor="#5B5B5B"
                    android:textSize="16sp" />
 
@@ -180,7 +190,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=": 1 Januari 2022"
+                    android:text=": "
+                    android:textColor="#5B5B5B"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_roman"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Januari 2022"
                     android:textSize="16sp"
                     android:fontFamily="@font/avenir_roman"
                     android:textColor="#5B5B5B"
@@ -203,10 +222,20 @@
                     android:textColor="#5B5B5B"
                     />
 
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=": Santi Susanti"
+                    android:text=": "
+                    android:textColor="#5B5B5B"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_roman"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Santi Susanti"
                     android:textSize="16sp"
                     android:fontFamily="@font/avenir_roman"
                     android:textColor="#5B5B5B"
@@ -231,7 +260,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="  @santi.susanti@gmail.com"
+                    android:text="  "
+                    android:textColor="#5B5B5B"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_roman"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="santi.susanti@gmail.com"
                     android:textSize="16sp"
                     android:fontFamily="@font/avenir_roman"
                     android:textColor="#5B5B5B"
@@ -254,10 +292,20 @@
                     android:textColor="#5B5B5B"
                     />
 
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="  089751937689"
+                    android:text="  "
+                    android:textColor="#5B5B5B"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_roman"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="089751937689"
                     android:textSize="16sp"
                     android:fontFamily="@font/avenir_roman"
                     android:textColor="#5B5B5B"
@@ -283,7 +331,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=": JNE"
+                    android:text=": "
+                    android:textColor="#5B5B5B"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_roman"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JNE"
                     android:textSize="16sp"
                     android:fontFamily="@font/avenir_roman"
                     android:textColor="#5B5B5B"
@@ -306,10 +363,20 @@
                     android:textColor="#5B5B5B"
                     />
 
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=": Rp. 8000"
+                    android:text=": "
+                    android:textColor="#5B5B5B"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_roman"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp. 8000"
                     android:textSize="16sp"
                     android:fontFamily="@font/avenir_roman"
                     android:textColor="#5B5B5B"
@@ -332,10 +399,20 @@
                     android:textColor="#5B5B5B"
                     />
 
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=": Pesanan sampai konsumen"
+                    android:text=": "
+                    android:textColor="#5B5B5B"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/avenir_roman"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pesanan sampai konsumen"
                     android:textSize="16sp"
                     android:fontFamily="@font/avenir_roman"
                     android:textColor="#5B5B5B"
@@ -371,11 +448,21 @@
                         android:textColor="#5B5B5B"
                         android:textSize="16sp" />
 
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/avenir_roman"
-                        android:text=": 12345678910111213"
+                        android:text="12345678910111213"
                         android:textColor="#5B5B5B"
                         android:textSize="16sp" />
 
@@ -396,10 +483,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": 1 Januari 2022"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 Januari 2022"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -422,10 +519,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": Mawar Sucipta"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mawar Sucipta"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -447,10 +554,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="  @mawar.sucipta@gmail.com"
+                        android:text="  "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mawar.sucipta@gmail.com"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -473,10 +590,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="  089751937689"
+                        android:text="  "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="089751937689"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -499,10 +626,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": JNE"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JNE"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -525,10 +662,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": Rp. 8000"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 8000"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -551,10 +698,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": Pesanan sampai konsumen"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pesanan sampai konsumen"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -593,8 +750,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
-                        android:text=": 12345678910111213"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avenir_roman"
+                        android:text="12345678910111213"
                         android:textColor="#5B5B5B"
                         android:textSize="16sp" />
 
@@ -615,10 +781,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": 1 Januari 2022"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 Januari 2022"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -641,10 +817,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": Santi Susanti"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Santi Susanti"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -666,10 +852,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="  @santi.susanti@gmail.com"
+                        android:text="  "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="santi.susanti@gmail.com"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -692,10 +888,20 @@
                         android:textColor="#5B5B5B"
                         />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="  089751937689"
+                        android:text="  "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="089751937689"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -721,7 +927,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": JNE"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JNE"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -747,7 +962,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": Rp. 8000"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 8000"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -773,7 +997,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=": Pesanan sampai konsumen"
+                        android:text=": "
+                        android:textColor="#5B5B5B"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/avenir_roman"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pesanan sampai konsumen"
                         android:textSize="16sp"
                         android:fontFamily="@font/avenir_roman"
                         android:textColor="#5B5B5B"
@@ -795,5 +1028,4 @@
 
         </LinearLayout>
     </ScrollView>
-
 </LinearLayout>

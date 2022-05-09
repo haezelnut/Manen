@@ -89,6 +89,8 @@ public class HomeFragment extends Fragment {
         ImageButton btnPromo = (ImageButton) view.findViewById(R.id.btnPromo);
         ImageButton btnIklan = view.findViewById(R.id.btnIklan);
         ImageButton btnLacak = (ImageButton) view.findViewById(R.id.lacakPesanan);
+        Button btnTips = (Button) view.findViewById(R.id.lihatSelengkapnyaBtn2) ;
+        Button btnInformasi = (Button) view.findViewById(R.id.lihatSelengkapnyaBtn1) ;
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -126,6 +128,22 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getActivity(),LacakPesanan.class);
+                startActivity(in);
+            }
+        });
+
+        btnTips.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(),Tips.class);
+                startActivity(in);
+            }
+        });
+
+        btnInformasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), Informasi.class);
                 startActivity(in);
             }
         });

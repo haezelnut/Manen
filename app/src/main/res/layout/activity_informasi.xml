@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informasi"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearTopTips"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:background="@drawable/background_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="11dp"
+            android:onClick="backFromInformasi"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/avenir_black"
+            android:text="Informasi"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5B5B5B"
+                android:fontFamily="@font/avenir_black"
+                android:textSize="17sp"
+                android:text="Seputar Informasi Seller"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9D9D9D"
+                android:text="Hai Mamat, walaupun penjualanmu lagi lancar &amp; lagi sibuk2nya,  jangan lupa rajin baca informasi terbaru ya biar kamu update terus"
+                android:fontFamily="@font/avenir_roman"
+                android:textSize="16sp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/infromationSellerExtend1"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textWelcomeSellerInfo2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageInformationExtend1"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                    android:src="@drawable/exampe_image_information"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <TextView
+                    android:id="@+id/contentInfromationExtend1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toEndOf="@+id/imageInformationExtend1"
+                    android:fontFamily="@font/avenir_black"
+                    android:text="Baru! Biar pembayaranmu nyaman, kami menyediakan Seller Wallet"
+                    android:textColor="#5B5B5B"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/line4"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toEndOf="@id/imageInformationExtend1"
+                    android:text="Diperbarui 2 menit lalu"
+                    android:textColor="#9B9B9A"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/line4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line_horizaontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/imageInformationExtend1"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/infromationSellerExtend2"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/infromationSellerExtend1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageInformationeExtend2"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                    android:src="@drawable/exampe_image_information"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <TextView
+                    android:id="@+id/contentInfromationExtend2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toEndOf="@+id/imageInformationeExtend2"
+                    android:fontFamily="@font/avenir_black"
+                    android:text="Kami hadir dengan kemasan aplikasi baru! Coba sekarang dan jual barang anda"
+                    android:textColor="#5B5B5B"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/line5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toEndOf="@id/imageInformationeExtend2"
+                    android:text="Diperbarui 4 hari lalu"
+                    android:textColor="#9B9B9A"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/line5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line_horizaontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/imageInformationeExtend2"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/infromationSellerExtend3"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/infromationSellerExtend2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                >
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageInformationExtend3"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    app:shapeAppearanceOverlay="@style/roundedImageViewInformation"
+                    android:src="@drawable/exampe_image_information"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <TextView
+                    android:id="@+id/contentInfromationExtend3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toEndOf="@+id/imageInformationExtend3"
+                    android:fontFamily="@font/avenir_black"
+                    android:text="Pembeli sekarang bisa melakukan pembelian dengan sangat mudah"
+                    android:textColor="#5B5B5B"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_toEndOf="@id/imageInformationExtend3"
+                    android:text="Diperbarui 5 hari lalu"
+                    android:textColor="#9B9B9A"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

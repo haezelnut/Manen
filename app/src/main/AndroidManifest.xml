@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Manen">
         <activity
+            android:name=".Informasi"
+            android:exported="false" />
+        <activity
             android:name=".BisnisAnalisis"
             android:exported="false" />
         <activity
@@ -20,7 +23,7 @@
             android:exported="false" />
         <activity
             android:name=".Pesanan"
-            android:exported="false"
+            android:exported="false" />
         <activity
             android:name=".IklanProduk"
             android:exported="false" />

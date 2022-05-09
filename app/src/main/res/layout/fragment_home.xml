@@ -857,7 +857,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="14dp"
                 android:fontFamily="@font/avenir_black"
-                android:text="Seputar Informasi Seller"
+                android:text="Seputar Tips Kembangkan Produkmu"
                 android:textSize="18sp" />
 
             <TextView
@@ -871,7 +871,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/avenir_roman"
-                android:text="Hai Mamat, walaupun penjualanmu lagi lancar &amp; lagi sibuk2nya,  jangan lupa rajin baca informasi terbaru ya biar kamu update terus"
+                android:text="Manen kasih tips nih agar produkmu sering dikunjungi pembeli"
                 android:textColor="#9B9B9B"
                 android:textSize="18sp" />
 
@@ -961,7 +961,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@+id/imageInformationeExtend2"
-                    android:text="Baru! Biar pembayaranmu nyaman, kami menyediakan Seller"
+                    android:text="Biar masyarakat tertarik, bikin promo di salah satu produkmu &amp; rasain keuntungannya!"
                     android:textColor="#5B5B5B"
                     android:fontFamily="@font/avenir_roman"
                     android:layout_marginLeft="8dp"
@@ -1020,7 +1020,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@+id/imageInformationExtend3"
-                    android:text="Pembeli sekarang bisa melakukan pembelian dengan sangat mudah"
+                    android:text="Bikin pembeli nyaman dan balik lagi dengan pelayanan toko yang baik"
                     android:textColor="#5B5B5B"
                     android:fontFamily="@font/avenir_roman"
                     android:layout_marginLeft="8dp"
