@@ -5,7 +5,8 @@
     android:textSize="14dp"
     android:textColor="@color/white"
     android:fontFamily="@font/avenir_black"
-    android:padding="5dp"
-    android:textAlignment="inherit">
+    android:padding="10dp"
+    android:textAlignment="inherit"
+    android:background="@color/fab">
 
 </TextView>
