@@ -402,6 +402,8 @@
                             android:paddingRight="10dp">
 
                             <ImageButton
+                                android:id="@+id/btnBisnis"
+                                android:onClick="btnBisnis"
                                 android:layout_width="match_parent"
                                 android:layout_height="110dp"
                                 android:background="@drawable/rounded_buttontext1"

@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Manen">
+
         <activity
             android:name=".Tips"
             android:exported="false" />
@@ -26,7 +27,7 @@
             android:exported="false" />
         <activity
             android:name=".Pesanan"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".IklanProduk"
             android:exported="false" />
