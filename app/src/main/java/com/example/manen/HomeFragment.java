@@ -89,6 +89,15 @@ public class HomeFragment extends Fragment {
         ImageButton btnPromo = (ImageButton) view.findViewById(R.id.btnPromo);
         ImageButton btnIklan = view.findViewById(R.id.btnIklan);
         ImageButton btnLacak = (ImageButton) view.findViewById(R.id.lacakPesanan);
+        ImageButton btnBisnis = view.findViewById(R.id.btnBisnis);
+
+        btnBisnis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(),BisnisAnalisis.class);
+                startActivity(in);
+            }
+        });
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

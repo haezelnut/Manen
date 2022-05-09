@@ -20,7 +20,7 @@
             android:exported="false" />
         <activity
             android:name=".Pesanan"
-            android:exported="false"
+            android:exported="false"/>
         <activity
             android:name=".IklanProduk"
             android:exported="false" />

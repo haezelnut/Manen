@@ -73,11 +73,13 @@
         <entry key="..\:/Manen/app/src/main/res/menu/bottom_nav_bar.xml" value="0.2937152629328773" />
         <entry key="..\:/Manen/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1355" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/background_produk.xml" value="0.19" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/ic_arrow_down.xml" value="0.19" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/drawable/rectangle.xml" value="0.19" />
-        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_bisnis_analisis.xml" value="0.209375" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_bisnis_analisis.xml" value="0.22" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_detail_pesanan.xml" value="0.209375" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_home.xml" value="0.151268115942029" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_iklan_produk.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_lacak_pesanan.xml" value="0.209375" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_menambahkan_produk.xml" value="0.25" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_produk.xml" value="0.1" />
         <entry key="..\:/Users/Alfinka/Documents/GitHub/Manen/app/src/main/res/layout/activity_produk_di_sukai_konsumen.xml" value="0.209375" />
