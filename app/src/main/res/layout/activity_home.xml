@@ -42,11 +42,10 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_input_product"
         app:fabCustomSize="90dp"
         app:layout_anchor="@id/bottomAppBar"
-        android:backgroundTint="#97C94B"
-        app:maxImageSize="40dp"
+        android:src="@drawable/tambah_produk_icon"
+        app:maxImageSize="85dp"
         app:elevation="5dp"
         />
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
