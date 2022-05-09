@@ -31,12 +31,12 @@ public class LacakPesanan extends AppCompatActivity {
         spinnerJenis = findViewById(R.id.spinnerJumlahUlasanRating);
 
 
-        ArrayAdapter<String> adapter1=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, waktu);
-        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> adapter1=new ArrayAdapter<String>(this, R.layout.my_selected_item, waktu);
+        adapter1.setDropDownViewResource(R.layout.my_dropdown_item);
         spinnerBulan.setAdapter(adapter1);
 
-        ArrayAdapter<String> adapter2=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, jenis);
-        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> adapter2=new ArrayAdapter<String>(this, R.layout.my_selected_item, jenis);
+        adapter2.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spinnerJenis.setAdapter(adapter2);
 
         spinnerBulan.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

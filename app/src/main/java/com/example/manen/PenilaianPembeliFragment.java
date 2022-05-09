@@ -33,12 +33,12 @@ public class PenilaianPembeliFragment extends Fragment {
         spinnerWaktuRatingProduk = getView().findViewById(R.id.spinnerWaktuRating);
         spinnerJumlahUlasanRatingProduk = getView().findViewById(R.id.spinnerJumlahUlasanRating);
 
-        ArrayAdapter<String> adapter1=new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, waktu);
-        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> adapter1=new ArrayAdapter<String>(getContext(), R.layout.my_selected_item, waktu);
+        adapter1.setDropDownViewResource(R.layout.my_dropdown_item);
         spinnerWaktuRatingProduk.setAdapter(adapter1);
 
-        ArrayAdapter<String> adapter2=new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, jumlahUlasan);
-        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> adapter2=new ArrayAdapter<String>(getContext(), R.layout.my_selected_item, jumlahUlasan);
+        adapter2.setDropDownViewResource(R.layout.my_dropdown_item);
         spinnerJumlahUlasanRatingProduk.setAdapter(adapter2);
 
         spinnerWaktuRatingProduk.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
